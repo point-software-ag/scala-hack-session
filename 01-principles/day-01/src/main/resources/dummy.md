@@ -1,0 +1,1 @@
+Just a dummy file to have the folder in Git.
