@@ -1,0 +1,17 @@
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.metadata/*
+.settings/*
+.worksheet/*
+target/*
+.cache
