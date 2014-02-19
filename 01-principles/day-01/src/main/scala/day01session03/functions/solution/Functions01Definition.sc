@@ -20,6 +20,12 @@ package day01session03.functions.solution
  *
  */
 object Functions01Definition {
+  //Simply said a function is binding an input variable (x) and expressing outcome (y): f(x) => y
+  //Now let's have a recap to our first session about the println function.
+  //Let's try a nested println of "Hello, Scala". Have a close look at the output. How many lines are printed and why?
+  //Call a nested println of "Hello, Scala" in a println:
+  println(println("Hello, Scala"))                //> Hello, Scala
+                                                  //| ()
   //This defines a constant variable "callByValue"
   val callByValue = 5                             //> callByValue  : Int = 5
   //This "calls" resp. uses the variable

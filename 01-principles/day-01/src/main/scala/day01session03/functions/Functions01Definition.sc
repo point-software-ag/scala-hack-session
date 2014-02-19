@@ -20,17 +20,14 @@ package day01session03.functions
  *
  */
 object Functions01Definition {
-  //This defines a constant variable "callByValue"
-  val callByValue = 5                             //> callByValue  : Int = 5
-  //This "calls" resp. uses the variable
-  callByValue                                     //> res0: Int = 5
-  //A one line function. Replace "val" with "def" to define a function. Then call the function
-  //Have a look at the output before and after the change
-  val callByName = 5                              //> callByName  : Int = 5
+  //Simply said a function is binding an input variable (x) and expressing outcome (y): f(x) => y
+  //Now let's have a recap to our first session about the println function.
+  //Let's try a nested println of "Hello, Scala". Have a close look at the output. How many lines are printed and why?
+  //Call a nested println of "Hello, Scala" in a println:
   ???                                             //> scala.NotImplementedError: an implementation is missing
                                                   //| 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:252)
                                                   //| 	at day01session03.functions.Functions01Definition$$anonfun$main$1.apply$
-                                                  //| mcV$sp(day01session03.functions.Functions01Definition.scala:30)
+                                                  //| mcV$sp(day01session03.functions.Functions01Definition.scala:27)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
                                                   //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
@@ -41,6 +38,14 @@ object Functions01Definition {
                                                   //| unctions.Functions01Definition.scala:22)
                                                   //| 	at day01session03.functions.Functions01Definition.main(day01session03.fu
                                                   //| nctions.Functions01Definition.scala)
+  //This defines a constant variable "callByValue"
+  val callByValue = 5
+  //This "calls" resp. uses the variable
+  callByValue
+  //A one line function. Replace "val" with "def" to define a function. Then call the function
+  //Have a look at the output before and after the change
+  val callByName = 5
+  ???
   //See the difference in the output between callByValue and callByName
   //Reason is that a val is a call-by-value (CBV) and def a call-by-name (CBN)
   //We will cover CBV and CBN later.
