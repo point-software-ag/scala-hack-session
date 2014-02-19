@@ -38,7 +38,7 @@ object ControlStructures02ForExpressions {
                                                   //| Output exceeds cutoff limit.
   
   //from 1 to 10 println every even number, for odd number print only a new line
-  //Hint: use the if-else expresseion
+  //Hint: use the if-else expression
   
   //for expressions can have more than one generators. These are handled as nested loops
   for {

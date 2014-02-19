@@ -27,7 +27,7 @@ object FirstSteps03Classes {
   // - constructionTime
   //like in the previous exercise
   class ScalaFun {
-    //unlike Java imports can also be define within a class or function
+    //unlike Java imports can also be defined within a class or function
     import java.text.SimpleDateFormat
 
     private val alive = true

@@ -27,7 +27,7 @@ object FirstSteps03Classes {
   // - constructionTime
   //like in the previous exercise
   class ScalaFun {
-    //unlike Java imports can also be define within a class or function
+    //unlike Java imports can also be defined within a class or function
     import java.text.SimpleDateFormat
 
     private val alive = true
@@ -47,12 +47,12 @@ object FirstSteps03Classes {
   //note: in Scala for default constructors a "new MyClass" without brackets is just fine
   //in Scala
   val instance = new ScalaFun                     //> instance  : day01session01.first_steps.solution.FirstSteps03Classes.ScalaFu
-                                                  //| n = day01session01.first_steps.solution.FirstSteps03Classes$ScalaFun@5c49d5
-                                                  //| 89
+                                                  //| n = day01session01.first_steps.solution.FirstSteps03Classes$ScalaFun@b27868
+                                                  //| b
 
   //do a println using the instance' dateFormat and constructionTime
   println(instance.dateFormat.format(instance.constructionTime))
-                                                  //> 30:01:2014 16:15:16:436
+                                                  //> 19:02:2014 17:41:11:796
 
   //Example taken from: http://www.artima.com/pins1ed/case-classes-and-pattern-matching.html
   //Case classes: adding the "case" modifier to a class lets the compiler add some syntactic conveniences to the class:

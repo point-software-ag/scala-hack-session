@@ -25,7 +25,7 @@ object ControlStructures02ForExpressions {
                                                   //| 3
                                                   //| 4
   //from 1 to 10 println every even number, for odd number print only a new line
-  //Hint: use the if-else expresseion
+  //Hint: use the if-else expression
   for (count <- 1 to 10) if (count % 2 == 0) println(count) else println
                                                   //> 
                                                   //| 2
