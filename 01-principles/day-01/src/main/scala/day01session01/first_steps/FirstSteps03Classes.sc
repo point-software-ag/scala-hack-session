@@ -37,15 +37,28 @@ object FirstSteps03Classes {
 
     //Constructors with params are defined using "def this(params)".
     //The first call must always be the primary constructor "this()"
-    def this(constructionTime: Long) = {
-      ???
-    }
+//    def this(constructionTime: Long) = {
+//      ???
+//    }
   }
 
   //now instantiate the class and have a look at the output
   //note: in Scala for default constructors a "new MyClass" without brackets is just fine
   //in Scala
-  val instance = ???
+  val instance = ???                              //> scala.NotImplementedError: an implementation is missing
+                                                  //| 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:252)
+                                                  //| 	at day01session01.first_steps.FirstSteps03Classes$$anonfun$main$1.apply$
+                                                  //| mcV$sp(day01session01.first_steps.FirstSteps03Classes.scala:48)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
+                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
+                                                  //| orksheetSupport.scala:65)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
+                                                  //| ksheetSupport.scala:75)
+                                                  //| 	at day01session01.first_steps.FirstSteps03Classes$.main(day01session01.f
+                                                  //| irst_steps.FirstSteps03Classes.scala:43)
+                                                  //| 	at day01session01.first_steps.FirstSteps03Classes.main(day01session01.fi
+                                                  //| rst_steps.FirstSteps03Classes.scala)
 
   //do a println using the instance' dateFormat and constructionTime
   println(???)
