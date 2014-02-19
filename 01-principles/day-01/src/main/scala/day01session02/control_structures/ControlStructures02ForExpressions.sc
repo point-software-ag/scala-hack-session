@@ -36,24 +36,56 @@ object ControlStructures02ForExpressions {
                                                   //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.r
                                                   //| Output exceeds cutoff limit.
+  //It is also possible to have nested for loops: put another for-loop in the body to have this output:
+  //1
+  //22
+  //333
+  //4444
+  for (count <- 1 to 4) {
+    //use another for-loop here.
+    //Hint: unlike println the function "print" does a print without a new line.
+    ???
+  }
   
   //from 1 to 10 println every even number, for odd number print only a new line
   //Hint: use the if-else expression
   
   //for expressions can have more than one generators. These are handled as nested loops
+  //in this case the first generator assigns after every loop the values from 1 to 4 to the variable outer
+  //within each loop of "outer" another inner loop is generated where the values from 1 to 3 is assigned.
+  //The output shows its iteration:
+  //loop 1 creates outer=1 and inner=1
+  //loop 2 creates outer=1 and inner=2
+  //loop 3 creates outer=1 and inner=3
+  //--->now that inner loop has reached its end the outer is increased in the next loop and the inner loop is re-created:
+  //loop 4 creates outer=2 and inner=1
+  //...
   for {
     outer <- 1 to 4
-    if outer % 2 == 0
     inner <- 1 to 3
   } println(outer + ">" + inner)
 
+  //besides generators it is also possible to have boolen expressions for filtering/skipping certain generators
+  //in this case add an if-expression where only outer values have even numbers are considered as a loop.
+  //the output looks as follows:
+  //2>1
+  //2>2
+  //2>3
+  //4>1
+  //4>2
+  //4>3
+  for {
+    outer <- 1 to 4
+    //TODO: add if-expression
+    inner <- 1 to 3
+  } println(outer + ">" + inner)
 
-  //use print and println in the for loop to print this:
+  //Now improve the above example of nested loops with this output:
   //1
   //22
   //333
   //4444
-  //55555
+  //Instead of a nested loop try to solve this with two different generators "row" and "column"
   
   
   //match expressions are like switch statements in Java except it can take any constant
