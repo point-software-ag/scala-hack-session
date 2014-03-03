@@ -24,18 +24,21 @@ object FirstSteps01Expressions {
   //This println function respectively method prints out the given parameter.
   //The output is on the right starting with "> ...."
   //Also note that a ";" at the end of the line is not required. Details: http://java.dzone.com/articles/scala-wonderland-semicolons
-  println("Welcome Hacker! You have entered Level of Scala Hack Session")
-                                                  //> Welcome Hacker! You have entered Level of Scala Hack Session
+  println("Welcome Hacker! You have entered Level 1 of Scala Hack Session")
+                                                  //> Welcome Hacker! You have entered Level 1 of Scala Hack Session
 
                                                   
   //try and print "Hello, World"
   
   //now print a number like 1. Note: do not use "1", just 1
   //Enter your code in the next line
+  //NOTE: don't be confused about the "???". As a result a NotImplementedError is shown.
+  //Below there are more ??? without an error. The reason is the that worksheets are processed top-down.
+  //once you have replaced the first "???" the IDE parses the output and then the next ??? shows an error.
   ???                                             //> scala.NotImplementedError: an implementation is missing
                                                   //| 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:252)
                                                   //| 	at day01session01.first_steps.FirstSteps01Expressions$$anonfun$main$1.ap
-                                                  //| ply$mcV$sp(day01session01.first_steps.FirstSteps01Expressions.scala:34)
+                                                  //| ply$mcV$sp(day01session01.first_steps.FirstSteps01Expressions.scala:37)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
                                                   //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
