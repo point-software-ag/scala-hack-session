@@ -10,7 +10,7 @@ Remember some old C64 games like [Tetris](http://www.youtube.com/watch?v=x5Fp26r
 # ToC - Scala Hack Sessions
 The following hack sessions are available:
 
-1. [Scala Principles](scala-01-principles-01/src/main/scala/README.md)
+1. [Scala Principles](01-principles/README.md)
 
 # Is there a good way to start a new language?
 What about...
