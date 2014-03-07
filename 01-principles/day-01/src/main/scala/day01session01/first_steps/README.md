@@ -56,7 +56,7 @@ Example: Class definitions
 # Resources
 
 First Steps in Scala
-- [First steps with Scala from the Devoxx 2012](http://parleys.com/play/5148922b0364bc17fc56ca20/chapter0/about)
+- Video: [First steps with Scala from the Devoxx 2012](http://parleys.com/play/5148922b0364bc17fc56ca20/chapter0/about)
 - [Programming in Scala](http://www.artima.com/pins1ed/first-steps-in-scala.html): Learn using the interpreter, expressions, define variables, and functions
 
 Scala Interpreter
