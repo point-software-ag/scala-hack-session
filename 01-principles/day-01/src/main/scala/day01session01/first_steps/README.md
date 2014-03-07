@@ -63,6 +63,10 @@ Scala Interpreter
 - [Step-by-step in the IDE](http://scala-ide.org/docs/current-user-doc/features/scalainterpreter/index.html#starting-the-interpreter)
 - [Online Interpreter](https://codebrew.io/): A Scala worksheet in your browser
 
+Arithmetic operations
+- [Infix operations](http://www.artima.com/pins1ed/basic-types-and-operations.html#5.4)
+- [Prefix (+, -, !, and ~) and postfix (parameterless methods) operations](http://www.artima.com/pins1ed/basic-types-and-operations.html#5.3)
+
 Values and Variables
 - [Immutable val vs. mutable var](http://www.scala-lang.org/old/node/5367)
 - [What is the difference between a var and val definition in Scala?](http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala)
