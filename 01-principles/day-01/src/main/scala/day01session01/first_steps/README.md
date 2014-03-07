@@ -56,28 +56,21 @@ Example: Class definitions
 # Resources
 
 First Steps in Scala
-- A nice video: http://parleys.com/play/5148922b0364bc17fc56ca20/chapter0/about
-- Learn using the interpreter, expressions, define variables, and functions: http://www.artima.com/pins1ed/first-steps-in-scala.html
+- [First steps with Scala from the Devoxx 2012](http://parleys.com/play/5148922b0364bc17fc56ca20/chapter0/about)
+- [Programming in Scala](http://www.artima.com/pins1ed/first-steps-in-scala.html): Learn using the interpreter, expressions, define variables, and functions
 
 Scala Interpreter
-- Can also be used in the IDE
-- http://scala-ide.org/docs/current-user-doc/features/scalainterpreter/index.html#starting-the-interpreter
-
-Online Interpreter
-- A Scala worksheet in your browser
-- https://codebrew.io/ 
+- [Step-by-step in the IDE](http://scala-ide.org/docs/current-user-doc/features/scalainterpreter/index.html#starting-the-interpreter)
+- [Online Interpreter](https://codebrew.io/): A Scala worksheet in your browser
 
 Values and Variables
-- Immutable val vs. mutable var: http://www.scala-lang.org/old/node/5367
-- http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala
-- http://stackoverflow.com/questions/2849303/how-can-i-avoid-mutable-variables-in-scala-when-using-zipinputstreams-and-zipout
-- Avoid var using Stream, code example: http://louisbotterill.blogspot.de/2009/09/scala-guis-simple-maze-generator-and.html
-
-Why is an initial assignment for val and var required?
-- Variables in Scala/functional languages are named expressions, unlike other languages where a variable is a memory address
-- http://stackoverflow.com/questions/6582605/scala-val-and-var-related-question-and-scala-requiring-me-to-assign-a-value-at-d#6582768
+- [Immutable val vs. mutable var](http://www.scala-lang.org/old/node/5367)
+- [What is the difference between a var and val definition in Scala?](http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala)
+- [How can I avoid mutable variables in Scala when using ZipInputStreams and ZipOutpuStreams?](http://stackoverflow.com/questions/2849303/how-can-i-avoid-mutable-variables-in-scala-when-using-zipinputstreams-and-zipout)
+- [Avoid var using Stream with code example](http://louisbotterill.blogspot.de/2009/09/scala-guis-simple-maze-generator-and.html)
+- [Why is an initial assignment for val and var required?](http://stackoverflow.com/questions/6582605/scala-val-and-var-related-question-and-scala-requiring-me-to-assign-a-value-at-d#6582768): Variables in Scala/functional languages are named expressions, unlike other languages where a variable is a memory address
 
 Classes and Case Classes
-- Classes and Objects: http://www.artima.com/pins1ed/classes-and-objects.html
-- Classes: http://docs.scala-lang.org/tutorials/tour/classes.html
-- Case Classes: http://docs.scala-lang.org/tutorials/tour/case-classes.html
+- [Classes and Objects](http://www.artima.com/pins1ed/classes-and-objects.html)
+- [Classes](http://docs.scala-lang.org/tutorials/tour/classes.html)
+- [Case Classes](http://docs.scala-lang.org/tutorials/tour/case-classes.html)
