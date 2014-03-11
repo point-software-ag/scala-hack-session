@@ -49,7 +49,7 @@ object FirstSteps01Expressions {
                                                   //| 01.first_steps.FirstSteps01Expressions.scala:22)
                                                   //| 	at day01session01.first_steps.FirstSteps01Expressions.main(day01session0
                                                   //| 1.first_steps.FirstSteps01Expressions.scala)
-  //====================== Expressions
+  //====================== Arithmetic Expressions
 
   //Try adding two values like 40 and 2
   ???
