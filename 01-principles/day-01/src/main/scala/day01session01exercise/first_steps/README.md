@@ -93,6 +93,10 @@ You can read more on implicits [here](http://pietrowski.info/2009/07/scala-impli
 # Resources
 
 Implicit conversions
+- [a simple example explaining how to extend Int with a 'times(f: => T)' method allowing to execute any method x times like '5 times println("Hi")'](http://docs.scala-lang.org/overviews/core/implicit-classes.html)
 - [Implicit Conversions and Parameters](http://www.artima.com/pins1ed/implicit-conversions-and-parameters.html)
 - [Blog: Scala Implicit Conversion](http://pietrowski.info/2009/07/scala-implicit-conversion/)
 - [DZone: Implicit Conversions in Scala](http://java.dzone.com/articles/implicit-conversions-scala)
+- Scala DSL for Basic:
+-- Blog/How-to: http://blog.code-cop.org/2010/01/scala-dsl-for-basic.html
+-- GitHub project 'baysick': https://github.com/fogus/baysick 
