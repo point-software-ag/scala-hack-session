@@ -81,5 +81,5 @@ Classes and Case Classes
 - [Case Classes](http://docs.scala-lang.org/tutorials/tour/case-classes.html)
 
 Singleton Objects
-- [Singleton Objects](www.artima.com/pins1ed/classes-and-objects.html#4.3)
-- [Scala Application](www.artima.com/pins1ed/classes-and-objects.html#4.4)
+- [Singleton Objects](http://www.artima.com/pins1ed/classes-and-objects.html#4.3)
+- [Scala Application](http://www.artima.com/pins1ed/classes-and-objects.html#4.4)

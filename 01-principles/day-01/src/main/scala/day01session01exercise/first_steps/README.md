@@ -92,10 +92,6 @@ You can read more on implicits [here](http://pietrowski.info/2009/07/scala-impli
 
 # Resources
 
-Classes and Case Classes
-- [Classes](http://docs.scala-lang.org/tutorials/tour/classes.html)
-- [Case Classes](http://docs.scala-lang.org/tutorials/tour/case-classes.html)
-
 Implicit conversions
 - [Implicit Conversions and Parameters](http://www.artima.com/pins1ed/implicit-conversions-and-parameters.html)
 - [Blog: Scala Implicit Conversion](http://pietrowski.info/2009/07/scala-implicit-conversion/)
