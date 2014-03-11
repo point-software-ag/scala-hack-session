@@ -58,6 +58,7 @@ Example: Class definitions
 First Steps in Scala
 - Video: [First steps with Scala from the Devoxx 2012](http://parleys.com/play/5148922b0364bc17fc56ca20/chapter0/about)
 - [Programming in Scala](http://www.artima.com/pins1ed/first-steps-in-scala.html): Learn using the interpreter, expressions, define variables, and functions
+- [A Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
 
 Scala Interpreter
 - [Step-by-step in the IDE](http://scala-ide.org/docs/current-user-doc/features/scalainterpreter/index.html#starting-the-interpreter)
@@ -78,3 +79,7 @@ Classes and Case Classes
 - [Classes and Objects](http://www.artima.com/pins1ed/classes-and-objects.html)
 - [Classes](http://docs.scala-lang.org/tutorials/tour/classes.html)
 - [Case Classes](http://docs.scala-lang.org/tutorials/tour/case-classes.html)
+
+Singleton Objects
+- [Singleton Objects](www.artima.com/pins1ed/classes-and-objects.html#4.3)
+- [Scala Application](www.artima.com/pins1ed/classes-and-objects.html#4.4)
