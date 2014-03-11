@@ -31,6 +31,47 @@ Example: mutable variables
                                                   //| 1
 ```
 
+# Interlude - Semicolon, parenthesis and curled braces
+Example: arithmetic operation in two lines - 'a +' and '1'
+```
+  var a = 0                                       //> a  : Int = 0
+  if (a < 10) a = a + 1
+  println(a)                                      //> 1
+  if (a < 10) a = a +
+    1
+  println(a)                                      //> 2
+``` 
+Now look into this small but important difference:
+Example: arithmetic operation in two lines - 'a' and '+ 1'
+```
+  var a = 0                                       //> a  : Int = 0
+  if (a < 10) a = a + 1
+  println(a)                                      //> 1
+  if (a < 10) a = a
+  + 1                                             //> res0: Int = 1
+  println(a)                                      //> 1
+``` 
+There are several possibilities to solve this by using parenthesis or braces:
+Example: 
+``` 
+  //use parenthesis for the expression
+  if (a < 10) a = (a
+    + 1)
+  
+  //use braces to the if body
+  if (a < 10) {
+    a = a + 1
+  }
+  
+  //use braces for the expression
+  if (a < 10) a = {
+    a + 1
+  }
+```
+
+Read more on semicolon inference [here](http://www.artima.com/pins1ed/classes-and-objects.html#4.2)
+
+
 # Classes
 Creating your own fun world by defining classes. Use case classes as the sugar in your world!
 
@@ -74,6 +115,9 @@ Values and Variables
 - [How can I avoid mutable variables in Scala when using ZipInputStreams and ZipOutpuStreams?](http://stackoverflow.com/questions/2849303/how-can-i-avoid-mutable-variables-in-scala-when-using-zipinputstreams-and-zipout)
 - [Avoid var using Stream with code example](http://louisbotterill.blogspot.de/2009/09/scala-guis-simple-maze-generator-and.html)
 - [Why is an initial assignment for val and var required?](http://stackoverflow.com/questions/6582605/scala-val-and-var-related-question-and-scala-requiring-me-to-assign-a-value-at-d#6582768): Variables in Scala/functional languages are named expressions, unlike other languages where a variable is a memory address
+
+Semicolon Inference
+- http://www.artima.com/pins1ed/classes-and-objects.html#4.2
 
 Classes and Case Classes
 - [Classes and Objects](http://www.artima.com/pins1ed/classes-and-objects.html)
