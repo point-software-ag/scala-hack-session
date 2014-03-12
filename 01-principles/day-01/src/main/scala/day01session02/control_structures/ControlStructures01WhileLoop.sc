@@ -42,10 +42,15 @@ object ControlStructures01WhileLoop {
                                                   //| day01session02.control_structures.ControlStructures01WhileLoop.scala:20)
                                                   //| 	at day01session02.control_structures.ControlStructures01WhileLoop.main(d
                                                   //| ay01session02.control_structures.ControlStructures01WhileLoop.scala)
-  //println every odd number between 1 and 10
-  //Hint: use the if expresseion
+  //println every even number between 1 and 10
+  //try to find a solution by adjusting ONLY the while condition and leaving the body unchanged!
+  //In case you can't find the solution, alternatively try this:
+  //Change the println in the while body to: if (condition) println
   count = 1
-  ???
+  while (???) {
+    println(count)
+    count += 1
+  }
 
   //do while loops, print every count
   count = 0

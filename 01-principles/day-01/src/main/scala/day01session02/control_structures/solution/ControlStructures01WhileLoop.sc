@@ -31,11 +31,13 @@ object ControlStructures01WhileLoop {
   }                                               //> 0
                                                   //| 1
                                                   //| 2
-  //println every odd number between 1 and 10
-  //Hint: use the if expresseion
+  //println every even number between 1 and 10
+  //try to find a solution by adjusting ONLY the while condition and leaving the body unchanged!
+  //In case you can't find the solution, alternatively try this:
+  //Change the println in the while body to: if (condition) println
   count = 1
-  while (count <11) {
-    if (count % 2 ==0) println(count)
+  while (count <= 10) {
+    if (count % 2 == 0) println(count)
     count += 1
   }                                               //> 2
                                                   //| 4
