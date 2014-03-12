@@ -51,8 +51,9 @@ Example: arithmetic operation in two lines - 'a' and '+ 1'
   + 1                                             //> res0: Int = 1
   println(a)                                      //> 1
 ``` 
-There are several possibilities to solve this by using parenthesis or braces:
-Example: 
+Here the line ‘if (a < 10) a = a' is interpreted as whole and the next line '+ 1' as a prefix operator. There are several possibilities to solve this by using parenthesis or braces.
+
+Example: parenthesis and braces 
 ``` 
   //use parenthesis for the expression
   if (a < 10) a = (a
