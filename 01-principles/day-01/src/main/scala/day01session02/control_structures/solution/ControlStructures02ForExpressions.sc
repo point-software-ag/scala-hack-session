@@ -115,26 +115,4 @@ object ControlStructures02ForExpressions {
                                                   //| 333
                                                   //| 4444
                                                   //| 55555
-  //match expressions are like switch statements in Java except it can take any constant
-  def sayHello(language: String) = language match {
-    case "German" => println("Hallo")
-    case "English" => println("Hello")
-    case _ => println("huuuh?")
-  }                                               //> sayHello: (language: String)Unit
-  //call the function with "German" and "Japanese"
-  sayHello("German")                              //> Hallo
-  sayHello("Japanese")                            //> huuuh?
-  //now remove the line with "case _" and see what happens
-
-  //implement using match expression and print a message "valus is an odd/even" number for each case
-  def evenOrOdd(value: Int) = (value % 2 == 0) match {
-    case true => println(value + " is an even number")
-    case _ => println(value + " is an odd number")
-  }                                               //> evenOrOdd: (value: Int)Unit
-
-  //call the function several times with: 3, -3, 0, and 2
-  evenOrOdd(3)                                    //> 3 is an odd number
-  evenOrOdd(-3)                                   //> -3 is an odd number
-  evenOrOdd(0)                                    //> 0 is an even number
-  evenOrOdd(2)                                    //> 2 is an even number
 }
