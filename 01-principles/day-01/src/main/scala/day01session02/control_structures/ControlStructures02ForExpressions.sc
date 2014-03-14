@@ -88,21 +88,4 @@ object ControlStructures02ForExpressions {
   //Instead of a nested loop try to solve this with two different generators "row" and "column"
   
   
-  //match expressions are like switch statements in Java except it can take any constant
-  def sayHello(language: String) = language match {
-    case "German" => println("Hallo")
-    case "English" => println("Hello")
-    case _ => println("huuuh?")
-  }
-  
-  //call the function with "German" and "Japanese"
-  sayHello(???)
-  sayHello(???)
-  //now remove the line with "case _" and see what happens
-  
-  //implement using match expression and print a message "valus is an odd/even" number for each case
-  def evenOrOdd(value: Int) = ???
-  
-  //call the function several times with: 3, -3, 0, and 2
-  ???
 }
