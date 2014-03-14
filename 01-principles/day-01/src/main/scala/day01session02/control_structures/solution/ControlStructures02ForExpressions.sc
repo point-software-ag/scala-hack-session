@@ -119,11 +119,11 @@ object ControlStructures02ForExpressions {
   def sayHello(language: String) = language match {
     case "German" => println("Hallo")
     case "English" => println("Hello")
-    case _ => println("huuuh?")
+    case _ => println("Sorry, I don't understand " + language)
   }                                               //> sayHello: (language: String)Unit
   //call the function with "German" and "Japanese"
   sayHello("German")                              //> Hallo
-  sayHello("Japanese")                            //> huuuh?
+  sayHello("Japanese")                            //> Sorry, I don't understand Japanese
   //now remove the line with "case _" and see what happens
 
   //implement using match expression and print a message "valus is an odd/even" number for each case
