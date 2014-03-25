@@ -3,7 +3,7 @@ List Methods
 
 # Basic Methods: Construction, Concatenation, Methods like head, tail, last, etc.
 
-Example: Lists methods - head, tail, init, last, reverse, take, and drop
+Example: Lists methods - head, tail, init, last, take, and drop
 ```
   val fibonacci = 1 :: 2 :: 3 :: 5 :: 8 :: 13 :: 21 :: 34 :: 55 :: 89 :: Nil
                                                   //> fibonacci  : List[Int] = List(1, 2, 3, 5, 8, 13, 21, 34, 55, 89)
@@ -22,7 +22,7 @@ Example: Lists methods - head, tail, init, last, reverse, take, and drop
   fibonacci.take(9)                               //> res7: List[Int] = List(1, 2, 3, 5, 8, 13, 21, 34, 55)
 ```
 
-Example: some more complex operations: continous calls, splitAt, reverse, and flatten
+Example: some more complex operations: continuous calls, splitAt, reverse, and flatten
 ```
   //next fibonacci number
   val next = fibonacci.init.last + fibonacci.last //> next  : Int = 144
@@ -75,7 +75,7 @@ Example: use patter matching for checking list structures
   }                                               //> zero :: List(one, two, three) = List(zero, one, two, three)
 ```
 
-# High-Order Methods: map, flatMap, foreach
+# Higher-Order Methods: map, flatMap, foreach
 
 The most common usage of collections are iteration over each element and do some operation.
 The map and flatMap operations allow element manipulation. They allow doing further operations on the new returned collection.
@@ -107,13 +107,23 @@ Example: same example except the result list is flat
 ```
 
 ## List.foreach
+Unlike other list operations the foreach does not create and return a new list.
 Example: prints every element in the list
 ```
   numbers.foreach(println(_))                     //> 2.0
                                                   //| 2.7
 ```
 
-# High-Order Methods: filter, find, partition, span, etc.
+Example:
+```
+  val result = list.foreach(element => if (element % 3 == 0) println(element))
+                                                  //> 3
+                                                  //| 6
+                                                  //| 9
+                                                  //| result  : Unit = ()
+```
+
+# Higher-Order Methods: filter, find, partition, span, etc.
 
 ## List.filter
 Example: filter all even numbers
@@ -156,18 +166,6 @@ Example: drop all elements while predicate is true
 Example: span a combination of takeWhile and dropWhile
 ```
   val result = list.span(_ < 6)                   //> result  : (List[Int], List[Int]) = (List(1, 2, 3, 4, 5),List(6, 7, 8, 9, 10))
-```
-
-## List.foreach
-Unlike other list operations the foreach does not create a new list.
-
-Example:
-```
-  val result = list.foreach(element => if (element % 3 == 0) println(element))
-                                                  //> 3
-                                                  //| 6
-                                                  //| 9
-                                                  //| result  : Unit = ()
 ```
 
 # Resources
