@@ -152,7 +152,7 @@ First-class functions
 - "A function literal is compiled into a class"
 - http://www.artima.com/pins1ed/functions-and-closures.html#8.3
 
-High-Order functions
+Higher-Order functions
 - Control Abstraction: http://www.artima.com/pins1ed/control-abstraction.html
 
 Currying
